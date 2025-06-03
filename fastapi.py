@@ -33,4 +33,4 @@ def get_item(item_id: int) -> Item:
     if item_id < len(items):
         return items[item_id]
     else:
-        raise HTTPException(status_code=404, detail="Item not found")
+        raise HTTPException(status_code=404, detail="Item not found")# Project
